@@ -75,7 +75,17 @@ Use workflow skills as the normal entry point. Specialist skills remain availabl
 
 ## Installation
 
-Copy a skill directory into the location recognized by your coding tool. Examples:
+Run the interactive installer directly from GitHub; cloning this repository is not required:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/irvanariyanto/irva-sdlc/main/install.sh)
+```
+
+The menu lets you choose Codex, Claude Code, or a custom directory. For Codex and Claude Code, choose a project-local or global installation target. Existing skills with an identical `SKILL.md` are skipped automatically; you are asked before replacing only files whose contents differ.
+
+To run it after cloning, use `./install.sh`.
+
+To install an individual skill manually, copy its directory into the location recognized by your coding tool. Examples:
 
 ```bash
 # Claude Code / generic skill layout

@@ -42,8 +42,12 @@ choose_target() {
   echo "Choose a target tool:"
   echo "  1) Claude Code"
   echo "  2) Codex"
-  echo "  3) Custom location"
-  read -r -p "Selection [1-3]: " tool
+  echo "  3) Cursor"
+  echo "  4) GitHub Copilot"
+  echo "  5) Antigravity"
+  echo "  6) OpenCode"
+  echo "  7) Custom location"
+  read -r -p "Selection [1-7]: " tool
 
   case "$tool" in
     1)
@@ -69,6 +73,50 @@ choose_target() {
       esac
       ;;
     3)
+      echo "Install Cursor skills to:"
+      echo "  1) This project (.cursor/skills)"
+      echo "  2) Global ($HOME/.cursor/skills)"
+      read -r -p "Selection [1-2]: " scope
+      case "$scope" in
+        1) TARGET=".cursor/skills" ;;
+        2) TARGET="$HOME/.cursor/skills" ;;
+        *) echo "Invalid Cursor target." >&2; exit 1 ;;
+      esac
+      ;;
+    4)
+      echo "Install GitHub Copilot skills to:"
+      echo "  1) This project (.github/skills)"
+      echo "  2) Global ($HOME/.copilot/skills)"
+      read -r -p "Selection [1-2]: " scope
+      case "$scope" in
+        1) TARGET=".github/skills" ;;
+        2) TARGET="$HOME/.copilot/skills" ;;
+        *) echo "Invalid GitHub Copilot target." >&2; exit 1 ;;
+      esac
+      ;;
+    5)
+      echo "Install Antigravity skills to:"
+      echo "  1) This project (.agent/skills)"
+      echo "  2) Global ($HOME/.gemini/antigravity/skills)"
+      read -r -p "Selection [1-2]: " scope
+      case "$scope" in
+        1) TARGET=".agent/skills" ;;
+        2) TARGET="$HOME/.gemini/antigravity/skills" ;;
+        *) echo "Invalid Antigravity target." >&2; exit 1 ;;
+      esac
+      ;;
+    6)
+      echo "Install OpenCode skills to:"
+      echo "  1) This project (.opencode/skills)"
+      echo "  2) Global ($HOME/.config/opencode/skills)"
+      read -r -p "Selection [1-2]: " scope
+      case "$scope" in
+        1) TARGET=".opencode/skills" ;;
+        2) TARGET="$HOME/.config/opencode/skills" ;;
+        *) echo "Invalid OpenCode target." >&2; exit 1 ;;
+      esac
+      ;;
+    7)
       read -r -p "Target directory: " TARGET
       if [[ -z "$TARGET" ]]; then
         echo "Target directory cannot be empty." >&2
@@ -76,7 +124,7 @@ choose_target() {
       fi
       ;;
     *)
-      echo "Invalid tool selection." >&2
+      echo "Invalid tool selection. Choose a number from 1 to 7." >&2
       exit 1
       ;;
   esac

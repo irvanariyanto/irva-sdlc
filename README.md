@@ -81,7 +81,7 @@ Run the interactive installer directly from GitHub; cloning this repository is n
 bash <(curl -fsSL https://raw.githubusercontent.com/irvanariyanto/irva-sdlc/main/install.sh)
 ```
 
-The menu lets you choose Codex, Claude Code, or a custom directory. For Codex and Claude Code, choose a project-local or global installation target. Existing skills with an identical `SKILL.md` are skipped automatically; you are asked before replacing only files whose contents differ.
+The menu supports Claude Code, Codex, Cursor, GitHub Copilot, Antigravity, OpenCode, and a custom directory. Each named tool offers a project-local or global installation target. Existing skills with an identical `SKILL.md` are skipped automatically; you are asked before replacing only files whose contents differ.
 
 To run it after cloning, use `./install.sh`.
 

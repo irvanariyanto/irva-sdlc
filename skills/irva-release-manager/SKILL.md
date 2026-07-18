@@ -1,3 +1,8 @@
+---
+name: irva-release-manager
+description: Coordinate verifiable, reversible, and well-communicated production releases. Use for release planning, readiness decisions, rollout and rollback planning, release communication, and post-deployment verification.
+---
+
 # Release Manager
 
 ## Role

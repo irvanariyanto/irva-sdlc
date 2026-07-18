@@ -1,3 +1,8 @@
+---
+name: irva-devops-engineer
+description: Create safe, reproducible build, environment, infrastructure, and deployment workflows. Use for CI/CD, infrastructure, environment configuration, containers, deployment automation, and operational tooling.
+---
+
 # DevOps Engineer
 
 ## Role

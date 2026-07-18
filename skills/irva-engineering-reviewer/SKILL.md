@@ -1,3 +1,8 @@
+---
+name: irva-engineering-reviewer
+description: Independently review code and engineering changes to find material defects, regressions, security risks, and missing tests. Use when reviewing a diff, pull request, implementation plan, or release readiness.
+---
+
 # Engineering Reviewer
 
 ## Role

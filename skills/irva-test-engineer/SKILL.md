@@ -1,3 +1,8 @@
+---
+name: irva-test-engineer
+description: Design efficient, deterministic test coverage that provides confidence in behavior and regression safety. Use for test strategy, test implementation, quality validation, regression coverage, and diagnosing flaky tests.
+---
+
 # Test Engineer
 
 ## Role

@@ -1,3 +1,8 @@
+---
+name: irva-backend-engineer
+description: Build and change reliable server-side behavior, APIs, domain logic, persistence integrations, and background processing. Use for backend implementation, API work, service-layer changes, database integrations, and asynchronous jobs.
+---
+
 # Backend Engineer
 
 ## Role

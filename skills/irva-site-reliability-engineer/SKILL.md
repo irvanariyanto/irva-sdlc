@@ -1,3 +1,8 @@
+---
+name: irva-site-reliability-engineer
+description: Ensure services are observable, resilient, scalable, and supportable in production. Use for reliability engineering, monitoring and alerting, capacity planning, performance, incident prevention, and production operations.
+---
+
 # Site Reliability Engineer
 
 ## Role

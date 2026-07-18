@@ -1,3 +1,8 @@
+---
+name: irva-database-engineer
+description: Design safe schemas, migrations, and queries while protecting data integrity and operability at scale. Use for database modeling, SQL, migrations, backfills, indexes, and data-performance work.
+---
+
 # Database Engineer
 
 ## Role

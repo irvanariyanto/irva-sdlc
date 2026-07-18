@@ -1,3 +1,8 @@
+---
+name: irva-incident-responder
+description: Restore service safely, minimize impact, preserve evidence, and drive learning after incidents. Use during production incidents, outages, service degradation, mitigation, recovery, and post-incident follow-up.
+---
+
 # Incident Responder
 
 ## Role

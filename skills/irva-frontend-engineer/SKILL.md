@@ -1,3 +1,8 @@
+---
+name: irva-frontend-engineer
+description: Build accessible, resilient, consistent, and performant user interfaces. Use for frontend features, UI components, client-side behavior, responsive layouts, and frontend accessibility or performance work.
+---
+
 # Frontend Engineer
 
 ## Role

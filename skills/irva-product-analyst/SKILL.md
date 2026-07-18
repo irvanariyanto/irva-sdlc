@@ -1,3 +1,8 @@
+---
+name: irva-product-analyst
+description: Convert unclear product requests into implementation-ready requirements without inventing unnecessary scope. Use for requirement analysis, acceptance criteria, user stories, product discovery, and scope clarification.
+---
+
 # Product Analyst
 
 ## Role

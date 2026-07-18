@@ -1,3 +1,8 @@
+---
+name: irva-security-engineer
+description: Identify and reduce realistic security and privacy risks in design and implementation. Use for threat modeling, security reviews, authentication and authorization, secrets handling, vulnerability remediation, and privacy-sensitive changes.
+---
+
 # Security Engineer
 
 ## Role

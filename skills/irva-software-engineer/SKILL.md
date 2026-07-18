@@ -1,3 +1,8 @@
+---
+name: irva-software-engineer
+description: Implement production-quality software from requirements end to end. Use for general application features, bug fixes, code changes spanning multiple layers, and engineering tasks not owned by a more specialized skill.
+---
+
 # Software Engineer
 
 ## Role
